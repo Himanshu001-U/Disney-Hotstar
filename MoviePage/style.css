@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    height: 100%;
+    width: 150px;
+    background-color: gray;
+}
+
+.main_section{
+    height: auto;
+    width: 100%;
+    
+}
