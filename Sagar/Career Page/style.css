@@ -577,3 +577,102 @@ color:#58595b
     cursor: pointer;
     fill: #ee2558;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    .nav img {
+        margin-left: 2%; /* Adjusted for responsiveness */
+    }
+
+    .sub {
+        width: 90%; /* Adjusted for responsiveness */
+        margin-left: 5%; /* Adjusted for responsiveness */
+        margin-bottom: 2rem;
+    }
+
+    .sub h1 {
+        font-size: 3rem; /* Adjusted for responsiveness */
+    }
+
+    .sub h2 {
+        font-size: 1.5rem; /* Adjusted for responsiveness */
+    }
+
+    .midmain {
+        padding-left: 2%; /* Adjusted for responsiveness */
+    }
+
+    .aboutdesc button {
+        max-width: 120px;
+    }
+
+    .midbottom {
+        padding-left: 2%; /* Adjusted for responsiveness */
+    }
+
+    .headd {
+        padding-top: 2rem;
+    }
+
+    .midfootmain {
+        margin-left: 2%; /* Adjusted for responsiveness */
+    }
+
+    .work {
+        margin-top: 4rem;
+        padding-left: 2%; /* Adjusted for responsiveness */
+    }
+
+    .work2 {
+        margin-top: 2rem;
+        padding-left: 2%; /* Adjusted for responsiveness */
+    }
+
+    .mfootimg img {
+        margin-top: 4rem;
+    }
+
+    .downscroll {
+        padding-right: 2%; /* Adjusted for responsiveness */
+    }
+
+    .text2 {
+        padding-left: 2%; /* Adjusted for responsiveness */
+    }
+
+    .maintext {
+        margin-top: 3rem;
+        padding-left: 2%; /* Adjusted for responsiveness */
+    }
+
+    .blog {
+        padding-bottom: 4rem;
+    }
+
+    .footermid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footertext {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .footertext p {
+        font-size: 0.8rem;
+    }
+
+    .form {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
